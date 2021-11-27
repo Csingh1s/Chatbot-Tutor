@@ -1,0 +1,89 @@
+{
+    "intents": [
+      {"tag": "greeting",
+       "patterns": ["Hi there", "How are you", "Is anyone there?","Hey","Hola", "Hello", "Good day", "Hey", "Hi"],
+       "responses": ["Hi stranger", "Yes Please tell me how may i help you?, how can I help ?", "How are you doing?", "How  are you doing ?", "How may i help you?"]
+      },
+      {"tag": "goodbye",
+       "patterns": ["Bye", "See you later", "Goodbye", "Ok bye", "Bye Bye"],
+       "responses": ["See you!", "Have a nice day", "Sure Bye"]
+      },
+      {"tag": "thanks",
+       "patterns": ["Thanks", "Thank you", "That's helpful", "Awesome, thanks", "Thanks for helping me"],
+       "responses": ["Happy to help!", "Any time!", "My pleasure", "You are welcome"]
+      },
+      {"tag": "noanswer",
+       "patterns": [],
+       "responses": ["Sorry, can't understand you", "Please give me more info", "Not sure I understand", "I am still here dude"]
+       },
+
+        {"tag": "options",
+         "patterns": ["What do you do", "How can you help", "What do you know", "What is your purpose", "How can you help"],
+         "responses": ["I can turn you into Maths Genius"]
+        },
+        {"tag": "math_info",
+          "patterns": ["Addition", "Can you explain to me about addition", "SA", "Tell me about SA", "What about SA", "What do you know about SA", "Tell me more about SA", "What can you tell me about South Africa", "Tell me about South Africa", "What about South Africa", "What do you know about South Africa", "Tell me more about South Africa"],
+          "responses": ["Addition is bringing two or more numbers to make it total."]
+          },
+
+          {"tag": "triangle_info",
+            "patterns": ["what is triangle", "triangle", "Explain triangle", "explain triangle!", "Can you explain what is triangle?", "tell me about triangle"],
+            "responses": ["A triangle is a type of polygon, which has three sides, and the two sides are joined end to end is called the vertex of the triangle. An angle is formed between two sides. This is one of the important parts of geometry"]
+            },
+
+            {"tag": "triangle_shape",
+              "patterns": ["what is triangle shape", "Shape of Triangle", "What are shapes of triangles", "explain  shapes triangle!", "Can you explain shapes of triangle?"],
+              "responses": ["Triangle is a closed two-dimensional shape. It is a three-sided polygon. All sides are made of straight lines. The point where two straight lines join is the vertex. Hence, the triangle has three vertices. Each vertex forms an angle."]
+              },
+              {"tag": "triangle_angle",
+                "patterns": ["what are the angles of triangle?", "angle of Triangle", "What are angles of triangles?", "explain angles triangle!", "Can you explain angles of triangle?"],
+                "responses": ["There are three angles in a triangle. These angles are formed by two sides of the triangle, which meets at a common point, known as the vertex. The sum of all three interior angles is equal to 180 degrees.If we extend the side length outwards, then it forms an exterior angle. The sum of consecutive interior and exterior angles of a triangle is supplementary.Let us say, ∠1, ∠2 and ∠3 are the interior angles of a triangle. When we extend the sides of the triangle in the outward direction, then the three exterior angles formed are ∠4, ∠5 and ∠6, which are consecutive to ∠1, ∠2 and ∠3, respectively. "]
+                },
+                {"tag": "triangle_properties",
+                  "patterns": ["what are the properties of triangle?", "properties of triangle", "What are angles of triangles?", "explain properties of triangle !", "Can you explain properties of triangle?"],
+                  "responses": ["A triangle has three sides and three angles","The sum of the angles of a triangle is always 180 degrees.","The exterior angles of a triangle always add up to 360 degrees.","The sum of consecutive interior and exterior angle is supplementary.","The sum of the lengths of any two sides of a triangle is greater than the length of the third side. Similarly, the difference between the lengths of any two sides of a triangle is less than the length of the third side. Please view this link: <a href='https://www.youtube.com/watch?v=ohaXcHwUWY0&ab_channel=TeddyandTimmyEdutainment'>shapes of triangle</a>"]
+                 },
+
+                 {"tag": "triangle_angle",
+                  "patterns": ["what are the angles of triangle?", "angle of Triangle", "What are angles of triangles?", "explain angles triangle!", "Can you explain angles of triangle?"],
+                  "responses": ["There are three angles in a triangle. These angles are formed by two sides of the triangle, which meets at a common point, known as the vertex. The sum of all three interior angles is equal to 180 degrees.If we extend the side length outwards, then it forms an exterior angle. The sum of consecutive interior and exterior angles of a triangle is supplementary.Let us say, ∠1, ∠2 and ∠3 are the interior angles of a triangle. When we extend the sides of the triangle in the outward direction, then the three exterior angles formed are ∠4, ∠5 and ∠6, which are consecutive to ∠1, ∠2 and ∠3, respectively. "]
+                  },
+
+                  {"tag": "triangle_types",
+                    "patterns": ["what are types of triangle?", "types of triangle", "What are types of triangles?", "explain types of triangle !", "Can you explain types of triangle?"],
+                    "responses": ["Scalene Triangle,Isosceles Triangle,Equilateral Triangle"]
+                   },
+
+                   {"tag": "angle_measurement",
+                    "patterns": ["On the basis of measurement of the angles, triangles are classified into three categories", "angle of Triangle", "On the basis of measurement of the angles?", "angles measurement", "Can you explain angles of triangle?","triangles are classified into three categories on the basis of measurement"],
+                    "responses": ["Acute Angle Triangle,Right Angle Triangle,Obtuse Angle Triangle"]
+                    },
+
+                    {"tag": "scalene_triangle",
+                      "patterns": ["what is scalene triangle?", "scalene triangle", "scalene ", "explain scalene  triangle !", "Can you explain scalene triangle?"],
+                      "responses": ["A scalene triangle is a type of triangle, in which all the three sides have different side measures. Due to this, the three angles are also different from each other."]
+                     },
+
+                     {"tag": "isosceles_triangle",
+                      "patterns": ["what is isosceles triangle?", "isosceles triangle", "isosceles", "explain isosceles triangle !", "Can you explain isosceles triangle?"],
+                      "responses": ["In an isosceles triangle, two sides have equal length. The two angles opposite to the two equal sides are also equal to each other."]
+                     },
+                     {"tag": "equilateral_triangle",
+                      "patterns": ["what is equilateral triangle?", "equilateral triangle", "equilateral", "explain equilateral triangle !", "Can you explain equilateral triangle?"],
+                      "responses": ["An equilateral triangle has all three sides equal to each other. Due to this all the internal angles are of equal degrees, i.e. each of the angles is 60°"]
+                     },
+
+                     {"tag": "acute_angled_triangle",
+                      "patterns": ["what is acute angled triangle?", "acute angled triangle", "acute angled ", "explain acute angled  triangle !", "Can you explain acute angled  triangle?"],
+                      "responses": ["An acute triangle has all of its angles less than 90°."]
+                     },
+                     {"tag": "right_angled_triangle",
+                      "patterns": ["what is right angled triangle?", "right angled triangle", "right angled", "explain right angled  triangle!", "Can you explain right angled  triangle?"],
+                      "responses": ["In a right triangle, one of the angles is equal to 90° or right angle."]
+                     }
+
+
+
+
+    ]
+  }
